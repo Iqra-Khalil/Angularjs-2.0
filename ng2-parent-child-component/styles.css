@@ -1,0 +1,37 @@
+*{
+    font-family: Consolas, monaco, monospace;
+}
+my-app > div {
+    display: block;
+    width: 95%;
+    
+    background-image: url("./banner.png");
+}
+my-app > div.ul{
+    display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
+    
+    
+}
+my-app > div.li {
+    float: right;
+        padding: 2px 5px;
+        border: 1px solid black;
+}
+angular2-def > div{
+    display: block;
+    width: 95%;
+}
+div{
+    border: 3px green solid;
+    border-radius: 5px;
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: lightcyan;
+}
